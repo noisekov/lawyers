@@ -96,7 +96,7 @@
 }
 
 .container {
-    max-width: 1370px;
+    max-width: 1380px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -114,7 +114,9 @@ input[type="submit"] {
 textarea {
     resize: none;
 }
-
+body {
+    overflow-x: hidden;
+}
 img {
     vertical-align: top;
 }
