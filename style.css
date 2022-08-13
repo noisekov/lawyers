@@ -2393,7 +2393,7 @@ footer {
 }
 
 .breadcrumbs__item::after {
-    content: "/";
+    content: "https://noisekov.github.io/lawyers/";
     padding: 0 10px;
     color: rgb(192, 192, 192);
 }
