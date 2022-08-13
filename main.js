@@ -58,7 +58,7 @@ document.addEventListener("keydown", function(evt){
 });
 
 //modalBtn
-if (location.pathname == "/"){
+
     const modalBtn = document.querySelector(".header__btn-block-request");
     const modalWindow = document.querySelector(".modal");
     const modalClose = document.querySelector(".modal__btn-close");
@@ -81,7 +81,7 @@ if (location.pathname == "/"){
             modalWindow.classList.remove("show")
         }
     })
-}
+
 
 
 //mask
